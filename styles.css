@@ -1,0 +1,37 @@
+body {
+    margin: 20px;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.gallery-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.gallery-image img{
+    border-radius: 10%;
+    max-width: 300px;
+    max-height: 200px;
+    padding: 5px;
+}
+
+.gallery-image img:active{
+    max-width: 600px;
+    max-height: 400px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter-link {
+    padding-left: 5px;
+    color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
